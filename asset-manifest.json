@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-form-handling/static/css/main.b77fad97.css",
+    "main.js": "/react-form-handling/static/js/main.814f7e8a.js",
+    "index.html": "/react-form-handling/index.html",
+    "main.b77fad97.css.map": "/react-form-handling/static/css/main.b77fad97.css.map",
+    "main.814f7e8a.js.map": "/react-form-handling/static/js/main.814f7e8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b77fad97.css",
+    "static/js/main.814f7e8a.js"
+  ]
+}
