@@ -6,7 +6,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Ajay-Dhangar/react-form-handling.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.s5",
