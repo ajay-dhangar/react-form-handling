@@ -1,0 +1,16 @@
+body{
+  background-color: #262626;
+}
+.App {
+  text-align: center;
+}
+
+h1{
+  text-transform: uppercase;
+  text-shadow: 4px 4px 8px #3007ff;
+  font-size: 40px;
+  color: #f2f2f2;
+}
+h1:hover{
+  text-shadow: 4px 4px 8px #4b0b4e;
+}

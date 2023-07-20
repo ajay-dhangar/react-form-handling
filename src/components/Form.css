@@ -1,0 +1,129 @@
+.container {
+    justify-content: center;
+    padding: 40px;
+    padding-top: 10px;
+  }
+  
+  form {
+    /* padding: 4rem 0; */
+    background-image: linear-gradient(#a9a900, rgba(210, 233, 82, 0.79)), url("https://raw.githubusercontent.com/CodeMastermindHQ/CodeMastermindHQ/e6bb5e8694bb2a0f798a8078fed7a0e05ace5e2b/static/img/background-img.svg");
+    animation: waveX 10s linear infinite, waveY 10s linear infinite;
+    animation-play-state: paused;
+    
+  }
+  
+  form:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes waveX {
+    0% {
+      background-position-x: 100%, 0;
+    }
+  
+    100% {
+      background-position-x: 100%, 33rem;
+    }
+  }
+  
+  @keyframes waveY {
+    100% {
+      background-position-y: 100%, 0;
+    }
+  
+    0% {
+      background-position-y: 100%, 33rem;
+    }
+  }
+  
+  .my-heading {
+    text-transform: uppercase;
+    color: #f1f1f1;
+    line-height: 30px;
+    text-shadow: 2px 2px 4px rgb(243, 17, 231);
+  }
+  
+  form {
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px;
+  }
+  
+  label {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  
+  input {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  
+  /* .name-area, .dept-area, .rating-area{
+      
+  } */
+  #name,
+  #dept,
+  #rating {
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .output {
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly
+  }
+  
+  .data {
+    background-color: aliceblue;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width:420px) {
+    .container {
+       padding: 2px;
+    }
+    label {
+      margin: 10px;
+      margin-top: 50px;
+    }
+    input{
+      margin: 10px;
+    }  
+  }
+  .error{
+    color: rgb(255, 15, 15);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px #fff;
+    line-height: 30px;
+  }
+  
+  @media screen and (max-width:335px){
+    
+    .container {
+      padding: 3px;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+  }
