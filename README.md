@@ -38,10 +38,6 @@ form-handling-and-state-variables-lifecycle-methods/
 
 
 
-<<<<<<< HEAD
-Copyright © 2023 Ajay Dhangar. All rights reserved.
-=======
+
 Copyright © 2023 Ajay Dhangar. All rights reserved.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
->>>>>>> 63ecf17d191ad7ed077dba6a6eaa8117be1e2090
