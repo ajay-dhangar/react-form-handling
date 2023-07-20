@@ -2,6 +2,7 @@
   "name": "form-handling-and-state-variables-lifecycle-methods",
   "version": "0.1.0",
   "author": "Ajay Dhangar",
+  "homepage": "https://Ajay-Dhangar.github.io/react-form-handling",
   "private": true,
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
